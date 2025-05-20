@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cấu hình môi trường ảo
+venv/
+env/
+.env
+.env.*
+
+# Thư mục uploads chứa file người dùng upload
+uploads/
+
+# Thư mục cache
+.cache/
+*.egg-info/
+dist/
+build/
+
+# Log files
+*.log
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# Cython debug symbols
+cython_debug/
+
+# Uvicorn/gunicorn logs
+*.pid
+
+# Pycharm
+.idea/
+
+# SQLite database files (nếu có dùng)
+*.sqlite3
+
+# Docker files (nếu có)
+docker-compose.override.yml
