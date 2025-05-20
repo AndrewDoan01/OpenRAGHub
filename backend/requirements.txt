@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-multipart
+aiofiles
+httpx
+sentence-transformers
+faiss-cpu
+pydantic
+langchain
+ollama
+pgvector
+asyncpg
